@@ -14,9 +14,10 @@
     display: flex;
     flex-direction: column;
 }
+
 .endnavigation{
     text-align: center;
-    font-size: 0.8em;
+    font-size: 15px;
     color: grey;
     margin-top: 20px;
 }
