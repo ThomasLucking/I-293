@@ -16,7 +16,6 @@ function App() {
           </div>
         </nav>
       </header>
-
       <main class="flex-grow">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div class="bg-white rounded-lg shadow-md p-8">
@@ -28,7 +27,6 @@ function App() {
           </div>
         </div>
       </main>
-
       <footer class="bg-gray-900 text-white">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div class="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
