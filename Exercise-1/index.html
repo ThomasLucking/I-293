@@ -6,30 +6,81 @@
     <title>HTML Cheat Sheet</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Headings -->         
+    <!-- Header with navigation -->
     <header>
         <nav class="navigation">
-            <h2 class="paragraph">Home</h2>
-            <h2 class="paragraph">About Us</h2>
-            <h2 class="paragraph">Contact</h2>
+            <a href="#home" class="paragraph">Home</a>
+            <a href="#about" class="paragraph">About Us</a>
+            <a href="#services" class="paragraph">Services</a>
+            <a href="#resources" class="paragraph">Resources</a>
+            <a href="#contact" class="paragraph">Contact</a>
         </nav>
     </header>
+
     <main>
-        <div class="articles">
-            <div class="sectionpart">
-                <p>Welcome to our website! We’re glad you stopped by.</p>
-                <p>Here you’ll find articles, resources, and updates on our work.</p>
-                <p>Take a look around and explore what we have to share.</p>
-            </div>
-        </div>
+        <!-- Home Section -->
+        <section id="home" class="sectionpart">
+            <h1>Welcome to Our Website</h1>
+            <p>We’re glad you stopped by. Explore and discover more about what we do.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="sectionpart">
+            <h2>About Us</h2>
+            <p>We are Example Company, dedicated to providing high-quality services and resources to our community.</p>
+            <ul>
+                <li>Founded in 2020</li>
+                <li>100+ team members</li>
+                <li>Global presence in 10 countries</li>
+            </ul>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="sectionpart">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of services designed to help individuals and organizations grow:</p>
+            <ol>
+                <li>Consulting and Strategy</li>
+                <li>Web and App Development</li>
+                <li>Cloud Solutions</li>
+                <li>Training and Workshops</li>
+            </ol>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="sectionpart">
+            <h2>Resources</h2>
+            <p>Here are some useful links and materials:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML
+                        Documentation</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="sectionpart">
+            <h2>Contact Us</h2>
+            <p>If you’d like to get in touch, here’s how:</p>
+            <ul>
+                <li>Email: info@example.com</li>
+                <li>Phone: +1 (555) 123-4567</li>
+                <li>Address: 123 Main Street, Example City</li>
+            </ul>
+        </section>
     </main>
+
+    <!-- Footer -->
     <footer class="footerpage">
         <nav class="endnavigation">
             <p>&copy; 2025 Example Company</p>
-            <p>Privacy Policy</p>
-            <p>Terms of Service</p>
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms of Service</a>
         </nav>
     </footer>
 </body>
+
 </html>
