@@ -251,3 +251,9 @@ html {
     background: #1793d1;
     color: #ffffff;
 }
+table{
+    text-align: center;
+    text-wrap: pretty;
+
+
+}
