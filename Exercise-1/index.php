@@ -45,7 +45,7 @@
             <h2>Our Services</h2>
             <p>We offer a wide range of services designed to help individuals and organizations grow:</p>
 
-            <table class="table" border="1">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>Service</th>
