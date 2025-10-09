@@ -99,7 +99,7 @@
         <section id="registration" class="sectionpart">
             <h2>Inscription au Cours d'Informatique</h2>
             <p>Remplissez le formulaire ci-dessous pour vous inscrire à nos cours</p>
-            <form class="registration-form">
+            <form class="registration-form" action="Success.php" method="POST">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="nom">Nom *</label>
@@ -110,7 +110,6 @@
                         <input type="text" id="prenom" name="prenom" required placeholder="Entrez votre prénom">
                     </div>
                 </div>
-
                 <div class="form-row">
                     <div class="form-group">
                         <label for="adresse">Adresse *</label>
