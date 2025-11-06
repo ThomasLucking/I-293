@@ -23,7 +23,7 @@ header {
     box-shadow: 0 4px 12px rgba(23, 147, 209, 0.3);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 2;
     border-bottom: 3px solid #0f6fa8;
 }
 
